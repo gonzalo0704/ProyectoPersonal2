@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gonzalo Figueroa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">  
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <script type="text/javascript" src="scripts/jquery.js"></script>
+  <script type="text/javascript" src="scripts/jquery.dataTables.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="scripts/irarriba.js"></script> 
+  <!-- Mi estilo -->
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body onscroll="myFunction()">
+
+<nav id="navbar" class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/GF-1.png" width="40" height="40" align="center" border="0" /></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+<!--  <form id="input-search" class="form-inline my-2 my-lg-0 nav navbar-nav navbar-right">
+		<input class="form-control mr-sm-2" type="search" placeholder="Buscar aqui..." aria-label="Buscar aqui...">
+    </form>-->
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="inicio.html">Inicio</a></li>
+        <li><a href="definiciones.html">Conceptos<img src="images/llave.png" width="20px" height="20px" /></a></li>
+		<li><a href="inicio.html#carousel">Porfolio</a></li>
+        <li><a href="inicio.html#Entrevistas">Entrevistas</a></li>
+        <li><a href="inicio.html#contacto">Contacto</a></li>
+	  </ul>
+  </div>
+</nav>
+<div class="content">
+<!-- buscador -->
+	<div id="buscador">
+    <input type="search" id="input-search" placeholder="Busca en la nube!"/> 
+</div>
+    <div class="content-search">
+        <div class="content-table">
+		
+            <table id="table">
+                <thead>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr class="search-row" id="html">
+                        <td><a href="#def"><span class="search-option">HTML</span></td></a>
+                    </tr>
+                    
+                    <tr class="search-row" id="css">
+                        <td><a href="#def"><span class="search-option">CSS</span></td></a>
+                    </tr>
+                    
+                    <tr class="search-row" id="cmpt">
+						<td><a href="#def"><span class="search-option">Competencias Transversales</span></td></a>
+                    </tr>
+                    
+					<tr class="search-row" id="cmpt">
+                        <td><a href="#ctec"><span class="search-option">Competencias Técnicas</span></td></a></a>
+                    </tr>
+					
+                    <tr class="search-row" id="cmpt">
+                        <td><a href="#cmet"><span class="search-option">Competencias Metodológicas</span></td></a></a>
+                    </tr>
+                    
+                    <tr class="search-row" id="cmpt">
+                        <td><a href="#cpar"><span class="search-option">Competencias Participativas</span></td></a></a>
+                    </tr>
+                    
+                    <tr class="search-row" id="cmpt">
+                        <td><a href="#cper"><span class="search-option">Competencias Personales</span></td></a></a>
+                    </tr>
+					
+                    <tr class="search-row" id="js">
+                        <td><a href="#def"><span class="search-option">JavaScript</span></td></a>
+                    </tr>
+                        
+                    <tr class="search-row" id="jquery">
+                        <td><a href="#def"><span class="search-option">JQuery</span></td></a>
+                    </tr>
+                    
+                    <tr class="search-row" id="json">
+                        <td><a href="#def"><span class="search-option">JSON</span></td></a>
+                    </tr>
+                    
+                    <tr class="search-row" id="vocation">
+                        <td><a href="#def"><span class="search-option">Vocación</span></td></a>
+                    </tr>
+                    
+                    <tr class="search-row" id="webdeveloper">
+                        <td><a href="#desarrollo"><span class="search-option">Desarrollador Web</span></td></a>
+                    </tr>
+					<tr class="search-row" id="webdeveloper">
+                        <td><a href="#disenio"><span class="search-option">Diseñador Web</span></td></a>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+<div id="divpiza" class="jumbotron text-center">
+  <img id="pizarra" src="images/nubepizarra.png" />
+  <div id="def">
+  <h2 id="definition-title"></h2>
+  <p id ="definition-desc"></p>
+  </div>
+</div>
+
+
+<a id="btnarriba"><img src="images/arriba.png" height="40px" width="40px"></a>
+<!-- Footer -->
+<footer id="ftr" class="container-fluid bg-4 text-center">
+                    <div><img src="images/wpp.png" width="38" height="38"/><u>093 633 480</u></div>
+                    <div><img src="images/fbicon.png" width="48" height="47"/><a href="https://www.facebook.com/CrikerGF7">Gonzalo Figueroa</a></div>
+					<div><img src="images/instaicon.png" width="42" height="42"/>&nbsp;&nbsp;<a href="https://www.instagram.com/gonn96/">Gonzalo Figueroa</a>
+	</footer>
+</div>
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	<script>
+	$(document).on("scroll", function() {
+
+		if($(document).scrollTop()>100) {
+		    $(".navbar").css("transition", "1.3s");
+			$(".navbar").css("opacity", "0.8");
+			$(".navbar").css("height","50px");
+			$(".navbar").css("padding","5px");
+		} else {
+			$(".navbar").css("opacity", "1");
+			$(".navbar").css("height","80px");
+			$(".navbar").css("padding","15px");
+			
+		}
+
+	});
+	</script>
+<script type="text/javascript" src="scripts/diccionario.js"></script>
+<script type="text/javascript" src="scripts/search.js"></script>
+
+</body>
+</html>

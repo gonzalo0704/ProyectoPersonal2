@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	  <title>Gonzalo Figueroa</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	  <script type="text/javascript" src="scripts/jquery.js"></script>
+	  <script type="text/javascript" src="scripts/bootstrap.js"></script>
+	  <script type="text/javascript" src="scripts/pdfreader.js"></script>
+	  <script type="text/javascript" src="scripts/irarriba.js"></script>
+	  <script type="text/javascript" src="scripts/pdfreader1.js"></script>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <!-- Mi estilo -->
+	  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<!-- Navbar -->
+	<nav id="navbar" class="navbar large navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="inicio.html"><img src="images/GF-1.png" width="40" height="40" margin-bottom="3px" /></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav navbar-right">
+					<li><a href="inicio.html">Inicio</a></li>
+					<li><a href="definiciones.html">Conceptos<img src="images/llave.png" width="20px" height="20px" /></a></li>
+					<li><a href="#carousel">Porfolio</a></li>
+					<li><a href="#Entrevistas">Entrevistas</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+				  </ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!-- Jumbotron  -->
+	<div id="jumbotronini" class="jumbotron text-center">
+		<h1>Gonzalo Figueroa</h1> 
+		<p>Hola soy Gonzalo</p>
+	</div>
+
+
+	<!-- Carousel -->
+	<div id="carousel" class="container-fluid bg-2 text-center">
+		<h2>Mis trabajos</h2>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+				<ol class="carousel-indicators">
+				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				  <li data-target="#myCarousel" data-slide-to="1"></li>
+				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				  <div id="caro" class="item active">
+					<img class="caroimg" src="images/xd.jpg" alt="El camino al éxito" />
+					<div id="bgitem" class="carousel-caption">
+					  <h3>Camino al éxito</h3>
+					  <p>Sigue estas claves y triunfarás!</p>
+					</div>
+				  </div>
+
+				  <div class="item">
+					<img class="caroimg" src="images/nube.png" alt="Nube de palabras">
+					<div id="bgitem" class="carousel-caption">
+					  <h3>Nube de palabras</h3>
+					  <p>Sabiduría en una imagen...</p>
+					</div>
+				  </div>
+				
+				  <div class="item">
+					<img  class="caroimg" src="images/mora.jpg" alt="Mora, mi perra">
+					<div id="bgitem" class="carousel-caption">
+					  <h3>Mora</h3>
+					  <p>Guau, guau!</p>
+					</div>
+				  </div>
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<!-- Entrevistas -->
+	<div id="Entrevistas" class="container-fluid text-center bg-grey">
+		<h2>Entrevistas</h2><br>
+		<h4>Entrevistas a los personajes más relevantes y representativos de la actualidad</h4>
+		<div class="row text-center slideanim">
+			<div id="pdfrita" class="col-sm-4">
+				<div id="itementrevista" class="thumbnail">
+					<img src="images/rita.jpg" alt="Rita Marquisio" width="400" height="300">
+					<p><strong>Rita</strong></p>
+					<p><i>"Es necesario saber trabajar en equipo"</i></p>
+				</div>
+				<div id="overlay">
+					<iframe id="if2" src="pdfs\pdfrita.pdf" style="width:100vh; height:100vh;" frameborder="0"></iframe>
+				</div>
+			</div>
+			<div id="pdfseba" class="col-sm-4">
+				<div id="itementrevista" class="thumbnail">
+					<img src="images/seba.jpg" alt="Sebastian Caggiano" width="400" height="300">
+					<p><strong>Sebastian</strong></p>
+					<p><i>"No vean el trabajo como un trabajo, vean el trabajo como parte de sí mismo"</i></p>
+				</div>
+			</div>
+			<div id="overlay1">
+				<iframe id="if1" src="C:\Users\Admin.PORTABLE\Desktop\ProyectoPersonal\pdfs\pdfseba.pdf" style="width:100vh; height:100vh;" frameborder="0"></iframe>
+			</div>
+			<div id="pdfcoito" class="col-sm-4">
+				<div id="itementrevista" class="thumbnail">
+					<img src="images/fabian.png" alt="Fabián Coito" width="400" height="300">
+					<p><strong>Fabián</strong></p>
+					<p><i>"Un proyecto personal se construye sobre dos pilares fundamentales: la motivación y el esfuerzo"</i></p>
+				</div>
+				<div id="overlay2">
+					<iframe id="if3" src="pdfs\coito.pdf" style="width:100vh; height:100vh;" frameborder="0"></iframe>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<a id="asantiago" href="https://www.youtube.com/watch?v=IgBwG33Sj6E&list=PL2npmScYno4bUZK1ZZpGRbLMOctAXWRvy&index=3">
+					<div id="itementrevista" class="thumbnail">
+						<img src="images/sant.jpg" alt="Santiago Fernández" width="400" height="300">
+						<p><strong>Santiago</strong></p>
+						<p><i>"Ser auténtico es la clave para triunfar en una entrevista laboral y en la vida"</i></p>
+					</div>
+				</a>
+			</div>
+			
+			<a title="Ver llamado!" href="https://www.uruguayconcursa.gub.uy/Portal/servlet/com.si.recsel.verllamado?10828">
+			<div id="anuncio" class="col-lg-6">
+				<h4>Llamado a concurso</h4>
+				<p>Llamado N°6534/2017 Técnico en PC - MDN - Dir.Nac. de Sanidad de las FFAA</p>
+				<img src="images/Logo_uruguayconcursa.png"/>
+			</div>
+			</a>
+		</div>
+		</br>
+
+	<!-- Contacto -->
+	<div id="contacto" class="container-fluid bg-2 text-center">
+		<div id="divcontacto">
+			<div>
+				<div id="contact" class="container-fluid bg-grey">
+						<h2 class="text-center">CONTACTO</h2>
+							<div class="row">
+								<div class="col-sm-5">
+									<p>Para saber más sobre mí!</p><a href="pdfs/merged.pdf">Mi currículum</a>
+									<p><span class="glyphicon glyphicon-map-marker"></span> Montevideo, UY</p>
+									<p><span class="glyphicon glyphicon-phone"></span> Tel +598 93 633 480 </p>
+									<p><span class="glyphicon glyphicon-envelope"></span> figonza7@gmail.com</p>
+								</div>
+								<div class="col-sm-7 slideanim">
+									<div class="row">
+										<div class="col-sm-6 form-group">
+											<input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+										</div>
+										<div class="col-sm-6 form-group">
+											<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+										</div>
+									</div>
+									<textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
+									<div class="row">
+										<div class="col-sm-12 form-group">
+											<button id="btnenviar" class="btn btn-default pull-right" type="submit">Enviar</button>
+										</div>
+									</div>
+								</div>
+							</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a id="btnarriba"><img src="images/arriba.png" height="60px" width="60px"></a>
+	<!-- Footer -->
+	<footer id="ftr" class="container-fluid bg-4 text-center">
+                    <div><img src="images/wpp.png" width="38" height="38"/><u>093 633 480</u></div>
+                    <div><img src="images/fbicon.png" width="48" height="47"/><a href="https://www.facebook.com/CrikerGF7">Gonzalo Figueroa</a></div>
+					<div><img src="images/instaicon.png" width="42" height="42"/>&nbsp;&nbsp;<a href="https://www.instagram.com/gonn96/">Gonzalo Figueroa</a>
+	</footer>
+	<script>
+	$(document).ready(function(){
+	  // Add smooth scrolling to all links in navbar + footer link
+	  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+		
+		if (this.hash !== "") {
+		  
+		  event.preventDefault();
+
+		  // Store hash
+		  var hash = this.hash;
+
+		 
+		  $('html, body').animate({
+			scrollTop: $(hash).offset().top
+		  }, 900, function(){
+	   
+			window.location.hash = hash;
+		  });
+		} // End if
+	  });
+	  
+	  $(window).scroll(function() {
+		$(".slideanim").each(function(){
+		  var pos = $(this).offset().top;
+
+		  var winTop = $(window).scrollTop();
+			if (pos < winTop + 600) {
+			  $(this).addClass("slide");
+			}
+		});
+	  });
+	})
+	</script>
+	<script>
+	$(document).on("scroll", function() {
+
+		if($(document).scrollTop()>100) {
+		    $(".navbar").css("transition", "1.3s");
+			$(".navbar").css("opacity", "0.8");
+			$(".navbar").css("height","50px");
+			$(".navbar").css("padding","5px");
+		} else {
+			$(".navbar").css("opacity", "1");
+			$(".navbar").css("height","80px");
+			$(".navbar").css("padding","15px");
+			
+		}
+
+	});
+	</script>
+	<script type="text/javascript" src="scripts/enviar.js"></script>  
+</body>
+</html>
