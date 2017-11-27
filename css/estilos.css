@@ -82,11 +82,11 @@ body {
 	right:20px;
 }
 #ftr{
-	font-size:10px;
+	font-size:15px;
 	text-align:justify;
 }
-
 #divpiza{
+	height:100vh;
 	background:transparent;
 }
 #itementrevista:hover{
