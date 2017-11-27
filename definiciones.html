@@ -113,7 +113,12 @@
         </div>
     </div>
 <div id="divpiza" class="jumbotron text-center">
-  <img id="pizarra" src="images/nubepizarra.png" />
+  
+<picture id="nubes">
+  <source srcset="images/nubechica.png" media="(max-width: 600px)">
+  <source srcset="images/nubepizarra.png" media="(max-width: 1500px)">
+  <img src="images/nubepizarra.png" alt="Nube de palabras" style="width:100%;">
+</picture>
   <div id="def">
   <h2 id="definition-title"></h2>
   <p id ="definition-desc"></p>
