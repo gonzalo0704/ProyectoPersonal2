@@ -241,33 +241,8 @@ body {
 #navdef ul a {
     text-decoration: none;
 }
-@media only screen and (max-width: 500px) {
-	#pizarra{
-	display:none;
-	}
-	#bgitem{
-		display:none;
-	}
-	#navdef{
-		display:none;
-	}
-	 .caroimg{
-	   width:800px;
-	   margin-left:0;
-	 }
-	 .def{
-	background:rgba(0,0,0,0.3);
-	padding:20px;
-	font-size:20px;
-	text-align:justify; 
-	 }
-	.defcontenedor{
-	background:rgba(0,0,0,0.3);
-	padding:20px;
-	font-size:20px;
-	text-align:justify;	
-	}
-}
+
+
 #menudef{
 	border-radius:22px;
 	color:white;
@@ -316,7 +291,15 @@ body {
     display: none;
 	
 }
-
+#abstract{
+	margin-left:300px;
+	margin-right:50px;
+	background: rgba(0,0,0,0.4);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 20px;
+	border-color: black;
+}
 .content-table{
 	margin-top:0px;
     width: 80%;
@@ -347,4 +330,31 @@ tbody tr td a:hover{
 
 #table_length, #table_filter, #table_info, #table_paginate{
     display: none;
+}
+@media only screen and (max-width: 500px) {
+	#abstract{
+	margin-left: 10px;
+    margin-right: 10px;
+    height: 65vh;
+    text-align: justify;
+    font-size: large;
+	}
+	#pizarra{
+	display:none;
+	}
+	#bgitem{
+		display:none;
+	}
+	#navdef{
+		display:none;
+	}
+	 .caroimg{
+	   width:800px;
+	   margin-left:0;
+	 }
+	 .def{
+
+	padding:5px;
+	
+	 }
 }
