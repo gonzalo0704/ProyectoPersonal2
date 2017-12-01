@@ -11,7 +11,7 @@ $(document).ready(function(){
 		$("#email").css("border-width", "3px");
 	}
 	if ($("#name").val() != "" && $("#email").val() != "" && $("#comments").val() !="")
-
+		alert("Mensaje enviado con exito! Gracias por contactarte conmigo");
 		
 		email.value = "";
 		comments.value = "";
