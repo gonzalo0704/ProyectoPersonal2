@@ -87,8 +87,20 @@ body {
 	font-size:15px;
 	text-align:justify;
 }
+#pizarra{
+	background:transparent;
+	height: 100vh;
+    margin-bottom: 0px;
+    background-image: url(../images/nubepizarra.png);
+    background-position: 0% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+	border-radius:0;
+}
 #divpiza{
-	height:100vh;
+	
 	background:transparent;
 }
 #itementrevista:hover{
@@ -204,7 +216,7 @@ body {
 	  z-index:1000;
 	  position:fixed;
 	  width:100%;
-      padding-top: 15px;
+     
       padding-bottom: 15px;
       border: 0;
       border-radius: 0;
@@ -291,6 +303,20 @@ body {
 	
 }
 #abstract{
+	
+	cursor:pointer;
+	margin-left:300px;
+	margin-right:50px;
+	background: rgba(0,0,0,0.4);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 20px;
+	border-color: black;
+}
+#abstracti{
+
+	display:none;
+	cursor:pointer;
 	margin-left:300px;
 	margin-right:50px;
 	background: rgba(0,0,0,0.4);
@@ -334,6 +360,15 @@ tbody tr td a:hover{
 
 @media only screen and (max-width: 500px) {
 	#abstract{
+	margin-left: 10px;
+    margin-right: 10px;
+    height: 73vh;
+    text-align: justify;
+    font-size: medium;
+	}
+		#abstracti{
+	display:none;
+	display:none;
 	margin-left: 10px;
     margin-right: 10px;
     height: 73vh;
