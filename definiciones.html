@@ -32,9 +32,9 @@
 <!--  <form id="input-search" class="form-inline my-2 my-lg-0 nav navbar-nav navbar-right">
 		<input class="form-control mr-sm-2" type="search" placeholder="Buscar aqui..." aria-label="Buscar aqui...">
     </form>-->
-	  <ul class="nav navbar-nav navbar-right">
+	  <ul id="ulnav" class="nav navbar-nav navbar-right">
 		<li><a href="inicio.html">Inicio</a></li>
-        <li><a href="definiciones.html">Conceptos<img src="images/llave.png" width="20px" height="20px" /></a></li>
+        <li><a href="definiciones.html">Conceptos</a></li>
 		<li><a href="inicio.html#carousel">Porfolio</a></li>
         <li><a href="inicio.html#Entrevistas">Entrevistas</a></li>
         <li><a href="inicio.html#contacto">Contacto</a></li>
@@ -151,11 +151,9 @@ function myFunction() {
 
 		if($(document).scrollTop()>100) {
 		    $(".navbar").css("transition", "1.3s");
-			$(".navbar").css("opacity", "1");
 			$(".navbar").css("height","50px");
 			$(".navbar").css("padding","5px");
 		} else {
-			$(".navbar").css("opacity", "1");
 			$(".navbar").css("height","80px");
 			$(".navbar").css("padding","15px");
 			
