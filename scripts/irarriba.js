@@ -15,3 +15,16 @@ $(document).ready(function(){
 	});
  
 });
+$(document).on("scroll", function() {
+
+		if($(document).scrollTop()>100) {
+		    $(".navbar").css("transition", "1.3s");
+			$(".navbar").css("height","50px");
+			$(".navbar").css("padding","5px");
+		} else {
+			$(".navbar").css("height","80px");
+			$(".navbar").css("padding","15px");
+			
+		}
+
+	});

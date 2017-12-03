@@ -33,7 +33,7 @@
 			<div class="collapse navbar-collapse" id="myNavbar">
 				  <ul class="nav navbar-nav navbar-right">
 					<li><a href="inicio.html">Inicio</a></li>
-					<li><a href="definiciones.html">Conceptos<img src="images/llave.png" width="20px" height="20px" /></a></li>
+					<li><a href="definiciones.html">Conceptos</li>
 					<li><a href="#carousel">Porfolio</a></li>
 					<li><a href="#Entrevistas">Entrevistas</a></li>
 					<li><a href="#contacto">Contacto</a></li>
@@ -62,6 +62,7 @@ Me defino como una persona consciente que trabaja duro y presta atención a los 
 				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				  <li data-target="#myCarousel" data-slide-to="1"></li>
 				  <li data-target="#myCarousel" data-slide-to="2"></li>
+				  <li data-target="#myCarousel" data-slide-to="3"></li>
 				</ol>
 
 			<!-- Wrapper for slides -->
@@ -114,9 +115,9 @@ Me defino como una persona consciente que trabaja duro y presta atención a los 
 		<h2>Entrevistas</h2><br>
 		<h4>Entrevistas a los personajes más relevantes y representativos de la actualidad</h4>
 		<div class="row text-center slideanim">
-			<div id="pdfrita" class="col-sm-4">
+			<div id="pdfrita" class="col-sm-3">
 				<div id="itementrevista" class="thumbnail">
-					<img id="itemimg" src="images/rita.jpg" alt="Rita Marquisio" width="400" height="300">
+					<img id="itemimg" src="images/rita.jpg" alt="Rita Marquisio">
 					<p><strong>Rita</strong></p>
 					<p><i>"Es necesario saber trabajar en equipo"</i></p>
 				</div>
@@ -124,9 +125,9 @@ Me defino como una persona consciente que trabaja duro y presta atención a los 
 					<iframe id="if2" src="pdfs\pdfrita.pdf" style="width:100vh; height:100vh;" frameborder="0"></iframe>
 				</div>
 			</div>
-			<div id="pdfseba" class="col-sm-4">
+			<div id="pdfseba" class="col-sm-3">
 				<div id="itementrevista" class="thumbnail">
-					<img id="itemimg" src="images/seba.jpg" alt="Sebastian Caggiano" width="400" height="300">
+					<img id="itemimg" src="images/seba.jpg" alt="Sebastian Caggiano">
 					<p><strong>Sebastian</strong></p>
 					<p><i>"No vean el trabajo como un trabajo, vean el trabajo como parte de sí mismo"</i></p>
 				</div>
@@ -134,9 +135,9 @@ Me defino como una persona consciente que trabaja duro y presta atención a los 
 			<div id="overlay1">
 				<iframe id="if1" src="pdfs\pdfseba.pdf" style="width:100vh; height:100vh;" frameborder="0"></iframe>
 			</div>
-			<div id="pdfcoito" class="col-sm-4">
+			<div id="pdfcoito" class="col-sm-3">
 				<div id="itementrevista" class="thumbnail">
-					<img id="itemimg" src="images/fabian.png" alt="Fabián Coito" width="400" height="300">
+					<img id="itemimg" src="images/fabian.png" alt="Fabián Coito" >
 					<p><strong>Fabián</strong></p>
 					<p><i>"Un proyecto personal se construye sobre dos pilares fundamentales: la motivación y el esfuerzo"</i></p>
 				</div>
@@ -144,10 +145,10 @@ Me defino como una persona consciente que trabaja duro y presta atención a los 
 					<iframe id="if3" src="pdfs\coito.pdf" style="width:100vh; height:100vh;" frameborder="0"></iframe>
 				</div>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<a id="asantiago" href="https://www.youtube.com/watch?v=IgBwG33Sj6E&list=PL2npmScYno4bUZK1ZZpGRbLMOctAXWRvy&index=3">
 					<div id="itementrevista" class="thumbnail">
-						<img id="itemimg" src="images/sant.jpg" alt="Santiago Fernández" width="400" height="300">
+						<img id="itemimg" src="images/sant.jpg" alt="Santiago Fernández" >
 						<p><strong>Santiago</strong></p>
 						<p><i>"Ser auténtico es la clave para triunfar en una entrevista laboral y en la vida"</i></p>
 					</div>
@@ -172,7 +173,7 @@ Me defino como una persona consciente que trabaja duro y presta atención a los 
 						<h2 class="text-center">CONTACTO</h2>
 							<div class="row">
 								<div class="col-sm-5">
-									<p>Para saber más sobre mí!</p><a href="pdfs/merged.pdf">Mi currículum</a>
+									<p>Para saber más sobre mí!</p><a  id="micv" class="btn-primary" href="pdfs/merged.pdf">Mi currículum</a>
 									<p><span class="glyphicon glyphicon-map-marker"></span> Montevideo, UY</p>
 									<p><span class="glyphicon glyphicon-phone"></span> Tel +598 93 633 480 </p>
 									<p><span class="glyphicon glyphicon-envelope"></span> figonza7@gmail.com</p>
@@ -241,23 +242,7 @@ Me defino como una persona consciente que trabaja duro y presta atención a los 
 	  });
 	})
 	</script>
-	<script>
-	$(document).on("scroll", function() {
-
-		if($(document).scrollTop()>100) {
-		    $(".navbar").css("transition", "1.3s");
-			$(".navbar").css("opacity", "0.8");
-			$(".navbar").css("height","50px");
-			$(".navbar").css("padding","5px");
-		} else {
-			$(".navbar").css("opacity", "1");
-			$(".navbar").css("height","80px");
-			$(".navbar").css("padding","15px");
-			
-		}
-
-	});
-	</script>
+	
 	<!-- <script type="text/javascript" src="scripts/enviar.js"></script> --> 
 </body>
 </html>

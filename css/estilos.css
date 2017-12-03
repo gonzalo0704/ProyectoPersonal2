@@ -99,10 +99,14 @@ body {
 	-ms-transform : scale(0.9); /* IE9 */
 }
 #itemimg{
-	height:260px;
+	height:200px;
+	width:300px;
+}
+#micv{
+	border-radius:5px;
+	padding:5px;
 }
   #itementrevista{
-	  width:70vh;
 	  transition: 1.5s ease;
 	  -moz-transition: 1.5s ease; /* Firefox */
  	  -webkit-transition: 1.5s ease; /* Chrome - Safari */
@@ -325,7 +329,7 @@ tbody tr td a:hover{
     display: none;
 }
 
-}
+
 @media only screen and (max-width: 500px) {
 	#abstract{
 	margin-left: 10px;
